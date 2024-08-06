@@ -36,6 +36,3 @@ High-level modules should not depend on low-level modules. Both should depend on
 
 For practical code snippets demonstrating each principle, refer to the `examples` directory.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
