@@ -1,26 +1,41 @@
-Overview
-SOLID is an acronym for five design principles that help create well-structured, maintainable, and scalable software. These principles are crucial for building robust object-oriented systems and improving code quality.
+# SOLID Principles
 
-Principles
-Single Responsibility Principle (SRP)
+## Overview
 
-A class should have only one reason to change, meaning it should have only one job or responsibility.
-Open/Closed Principle (OCP)
+SOLID is an acronym for five design principles that guide software development to ensure systems are well-structured, maintainable, and scalable. These principles are foundational for building robust object-oriented systems and enhancing code quality.
 
-Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This allows you to add new functionality without changing existing code.
-Liskov Substitution Principle (LSP)
+## Principles
+
+### Single Responsibility Principle (SRP)
+
+A class should have only one reason to change, meaning it should have a single job or responsibility.
+
+### Open/Closed Principle (OCP)
+
+Software entities (such as classes, modules, functions) should be open for extension but closed for modification. This allows new functionality to be added without altering existing code.
+
+### Liskov Substitution Principle (LSP)
 
 Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
-Interface Segregation Principle (ISP)
 
-A client should not be forced to depend on interfaces it does not use. This means creating specific, smaller interfaces rather than a large, general-purpose one.
-Dependency Inversion Principle (DIP)
+### Interface Segregation Principle (ISP)
 
-High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
-Benefits
-Maintainability: Easier to manage and modify code.
-Scalability: Facilitates the addition of new features.
-Testability: Improves the ease of unit testing components.
-Examples
-Refer to the examples directory for practical code snippets demonstrating each principle in action.
+Clients should not be forced to depend on interfaces they do not use. Prefer creating smaller, specific interfaces over a large, general-purpose one.
 
+### Dependency Inversion Principle (DIP)
+
+High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details; details should depend on abstractions.
+
+## Benefits
+
+- **Maintainability:** Simplifies code management and modification.
+- **Scalability:** Eases the addition of new features.
+- **Testability:** Enhances the ability to unit test components.
+
+## Examples
+
+For practical code snippets demonstrating each principle, refer to the `examples` directory.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
